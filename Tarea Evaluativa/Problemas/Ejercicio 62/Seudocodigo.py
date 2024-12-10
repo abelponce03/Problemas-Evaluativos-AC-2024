@@ -1,6 +1,6 @@
 
-l = [2,1,2,1]
-n = 4
+l = []
+n = 0
 
 def Ordenacion (n, lista):
     
@@ -12,7 +12,7 @@ def Ordenacion (n, lista):
         
         if lista[i + 1] > lista[i]:  C = True
             
-        if lista[i + 1] < lista[i]:  D = True
+        elif lista[i + 1] < lista[i]:  D = True
             
         if D & C : break
         

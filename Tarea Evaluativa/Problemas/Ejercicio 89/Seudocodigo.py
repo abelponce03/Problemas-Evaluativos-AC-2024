@@ -7,3 +7,6 @@ def Minimun(size, lista):
         i = i + 1
     
     return a 
+
+def Area (r):
+    return 3*r*r
